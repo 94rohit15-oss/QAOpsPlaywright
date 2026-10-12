@@ -10,7 +10,7 @@ test('Create Role and Update Role via API', async ({ request }) => {
     'https://app.asana.com/api/1.0/roles',
     {
       headers: {
-        Authorization: 'Bearer YOUR_TOKEN',
+        //Authorization: 'Bearer YOUR_TOKEN',
         'Content-Type': 'application/json'
       },
 
@@ -56,7 +56,7 @@ test('Create Role and Update Role via API', async ({ request }) => {
     `https://app.asana.com/api/1.0/roles/${roleGid}`,
     {
       headers: {
-        Authorization: 'Bearer YOUR_TOKEN',
+        //Authorization: 'Bearer YOUR_TOKEN',
         'Content-Type': 'application/json'
       },
 

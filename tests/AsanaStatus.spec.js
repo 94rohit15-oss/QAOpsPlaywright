@@ -6,7 +6,7 @@ test('Update timesheet status via API', async ({ request }) => {
     'https://app.asana.com/api/1.0/timesheet_approval_statuses/1217455670018012',
     {
       headers: {
-        Authorization: 'Bearer 2/1216752529418208/1217454540883633:61b095e08ee3f1adab0258f56cbe827a',
+       // Authorization: 'Bearer 2/1216752529418208/1217454540883633:61b095e08ee3f1adab0258f56cbe827a',
         'Content-Type': 'application/json'
       },
 
