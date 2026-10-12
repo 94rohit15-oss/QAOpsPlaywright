@@ -6,7 +6,7 @@ test('Create Asana Project via API', async ({ request }) => {
     'https://app.asana.com/api/1.0/projects',
     {
       headers: {
-        Authorization: 'Bearer 2/1214023934681159/1216907742183738:51d6c23b34ed69883e2f00faa2143c43',
+       // Authorization: 'Bearer 2/1214023934681159/1216907742183738:51d6c23b34ed69883e2f00faa2143c43',
         'Content-Type': 'application/json'
       },
 
@@ -44,4 +44,4 @@ expect(responseBody.data.owner).toBeTruthy();
 expect(responseBody.data.owner.gid).toBe('1214023934681159');
 expect(responseBody.data.owner.resource_type).toBe('user');
 expect(responseBody.data.owner.name).toBe('Rohit');
-});
+}); 

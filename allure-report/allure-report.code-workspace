@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../downloads"
+		},
+		{
+			"path": "../node_modules"
+		},
+		{
+			"path": "../pageobjects"
+		},
+		{
+			"path": "../playwright-report"
+		},
+		{
+			"path": "../test-results"
+		},
+		{
+			"path": "../tests"
+		},
+		{
+			"path": "../tests-examples"
+		}
+	]
+}
