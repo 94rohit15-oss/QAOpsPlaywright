@@ -1,0 +1,14 @@
+const {test, expect} = require('@playwright/test');
+
+
+test('Second Playwright test', async ({page})=>
+{
+await page.goto("https://rahulshettyacademy.com/client");
+await page.locator("#userEmail").fill("94rohit15@gmail.com");
+await page.locator("#userPassword").fill("Rohit007@");
+await page.locator("[value='Login']").click();
+await page.waitForLoadState('networkidle');
+const titles = await page.locator(".card-body b").allTextContents();
+console.log(titles);
+});
+

@@ -1,0 +1,32 @@
+{
+  "data": {
+    "gid": "1217455670018012",
+    "resource_type": "timesheet_approval_status",
+    "created_at": "2026-08-13T04:38:36.809Z",
+    "start_date": "2026-08-10",
+    "end_date": "2026-08-16",
+    "approval_status": "draft",
+    "workspace": {
+      "gid": "1216752854019079",
+      "resource_type": "workspace",
+      "name": "1209075051608193.5u2k89.asanatest1.us"
+    },
+    "user": {
+      "gid": "1216752529418208",
+      "resource_type": "user",
+      "name": "Tester1"
+    },
+    "reviewer": {
+      "gid": "1216752529418208",
+      "resource_type": "user",
+      "name": "Tester1"
+    },
+    "reviewers": [
+      {
+        "gid": "1216752529418208",
+        "resource_type": "user",
+        "name": "Tester1"
+      }
+    ]
+  }
+}

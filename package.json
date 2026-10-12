@@ -1,0 +1,22 @@
+{
+  "name": "second_source",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "local:int": "npx playwright test --grep '@TEST-1234' --headed",
+    "SafariNewConfig": "npx playwright test --config playwright.config1.js "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@azure/identity": "^4.13.3",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.2.1",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.3"
+  }
+}
