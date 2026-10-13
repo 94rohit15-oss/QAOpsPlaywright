@@ -6,7 +6,7 @@ test('Create Asana Project via API', async ({ request }) => {
         'https://app.asana.com/api/1.0/projects/1216888577579933',
         {
             headers: {
-                Authorization: 'Bearer 2/1214023934681159/1216907742183738:51d6c23b34ed69883e2f00faa2143c43',
+                Authorization: '',
                 'Content-Type': 'application/json'
             },
 
@@ -33,7 +33,7 @@ test('Create Asana Project via API', async ({ request }) => {
   'https://app.asana.com/api/1.0/projects/1216888577579933',
   {
     headers: {
-     // Authorization: `Bearer 2/1214023934681159/1216907742183738:51d6c23b34ed69883e2f00faa2143c43`
+     
     }
   }
 );
